@@ -1,0 +1,6 @@
+{
+  "name": "English Cafe - Table Reservation & Management System",
+  "description": "Production-ready English Cafe website and reservation management system integrated with Google Sheets, automated table allocation, concurrency locking, and email confirmations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

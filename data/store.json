@@ -1,0 +1,220 @@
+{
+  "tables": [
+    {
+      "tableId": "T01",
+      "tableName": "Table 1 (Georgian Window)",
+      "seatingCapacity": 2,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Street view, romantic couple table"
+    },
+    {
+      "tableId": "T02",
+      "tableName": "Table 2 (Georgian Window)",
+      "seatingCapacity": 2,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Street view, romantic couple table"
+    },
+    {
+      "tableId": "T03",
+      "tableName": "Table 3 (Heritage Banquette)",
+      "seatingCapacity": 4,
+      "status": "ACTIVE",
+      "canCombine": true,
+      "notes": "Can combine with T04 for parties up to 8"
+    },
+    {
+      "tableId": "T04",
+      "tableName": "Table 4 (Heritage Banquette)",
+      "seatingCapacity": 4,
+      "status": "ACTIVE",
+      "canCombine": true,
+      "notes": "Can combine with T03 for parties up to 8"
+    },
+    {
+      "tableId": "T05",
+      "tableName": "Table 5 (Main Cafe Area)",
+      "seatingCapacity": 4,
+      "status": "ACTIVE",
+      "canCombine": true,
+      "notes": "Can combine with T06"
+    },
+    {
+      "tableId": "T06",
+      "tableName": "Table 6 (Main Cafe Area)",
+      "seatingCapacity": 4,
+      "status": "ACTIVE",
+      "canCombine": true,
+      "notes": "Can combine with T05"
+    },
+    {
+      "tableId": "T07",
+      "tableName": "Table 7 (Fireplace Alcove)",
+      "seatingCapacity": 6,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Near fireplace, family booth"
+    },
+    {
+      "tableId": "T08",
+      "tableName": "Table 8 (Garden View Booth)",
+      "seatingCapacity": 6,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Cozy booth, afternoon tea"
+    },
+    {
+      "tableId": "T09",
+      "tableName": "Table 9 (Library Corner)",
+      "seatingCapacity": 2,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Quiet intimate reading corner"
+    },
+    {
+      "tableId": "T10",
+      "tableName": "Table 10 (Courtyard View)",
+      "seatingCapacity": 4,
+      "status": "ACTIVE",
+      "canCombine": false,
+      "notes": "Overlooks private garden courtyard"
+    }
+  ],
+  "settings": {
+    "spreadsheetId": "1ud-hNTI6XqmSZrqoKby_x04OsTG3dUmPFLYQAyeOkrA",
+    "senderEmail": "raihanasihamm@gmail.com",
+    "serviceAccountEmail": "english-cafe-442@gen-lang-client-0302064176.iam.gserviceaccount.com",
+    "appsScriptWebAppUrl": "",
+    "openingTime": "08:00",
+    "closingTime": "21:00",
+    "bookingDurationMinutes": 60,
+    "bufferMinutes": 15,
+    "slotIntervalMinutes": 30,
+    "maxAdvanceDays": 60,
+    "adminToken": "admin_english_cafe_sec_2026"
+  },
+  "bookings": [
+    {
+      "bookingId": "EC-20261112-9720",
+      "requestId": "booking-test-harrington-001",
+      "customerName": "Lord Harrington",
+      "customerEmail": "raihanasihamm@gmail.com",
+      "customerPhone": "+44 20 7946 0988",
+      "bookingDate": "2026-11-12",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "guestCount": 2,
+      "assignedTableIds": [
+        "T02"
+      ],
+      "specialRequests": "Afternoon Tea for two by the window",
+      "bookingStatus": "CONFIRMED",
+      "createdAt": "2026-11-08T14:13:37.324Z",
+      "updatedAt": "2026-11-08T14:13:37.324Z",
+      "adminNotes": "",
+      "emailStatus": "SENT"
+    },
+    {
+      "bookingId": "EC-20261112-7702",
+      "requestId": "req-1794145419559",
+      "customerName": "Victoria Sterling",
+      "customerEmail": "v.sterling@mayfair.co.uk",
+      "customerPhone": "+44 20 7946 0999",
+      "bookingDate": "2026-11-12",
+      "startTime": "15:00",
+      "endTime": "16:00",
+      "guestCount": 2,
+      "assignedTableIds": [
+        "T01"
+      ],
+      "specialRequests": "Royal Mayfair High Afternoon Tea",
+      "bookingStatus": "CONFIRMED",
+      "createdAt": "2026-11-08T13:43:39.559Z",
+      "updatedAt": "2026-11-08T13:43:39.559Z",
+      "adminNotes": "",
+      "emailStatus": "SENT"
+    },
+    {
+      "bookingId": "EC-20261108-8679",
+      "requestId": "req-1794145351485-x4c5fjb",
+      "customerName": "RAIHANA SIHAM M",
+      "customerEmail": "raihanasihamm@gmail.com",
+      "customerPhone": "+919048497460",
+      "bookingDate": "2026-11-08",
+      "startTime": "08:30",
+      "endTime": "09:30",
+      "guestCount": 2,
+      "assignedTableIds": [
+        "T01"
+      ],
+      "specialRequests": "",
+      "bookingStatus": "CONFIRMED",
+      "createdAt": "2026-11-08T13:42:32.858Z",
+      "updatedAt": "2026-11-08T13:42:32.858Z",
+      "adminNotes": "",
+      "emailStatus": "SENT"
+    },
+    {
+      "bookingId": "EC-20261109-6531",
+      "requestId": "req-1794121236832",
+      "customerName": "Alexander Wright",
+      "customerEmail": "alex.wright@mayfair.co.uk",
+      "customerPhone": "+44 20 7946 0888",
+      "bookingDate": "2026-11-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "guestCount": 2,
+      "assignedTableIds": [
+        "T01"
+      ],
+      "specialRequests": "Anniversary tea table",
+      "bookingStatus": "CANCELLED",
+      "createdAt": "2026-11-08T07:00:36.832Z",
+      "updatedAt": "2026-11-08T07:00:45.601Z",
+      "adminNotes": "Cancelled by guest. Reason: Schedule conflict",
+      "emailStatus": "SENT"
+    },
+    {
+      "bookingId": "EC-20261108-1021",
+      "requestId": "req-init-1",
+      "customerName": "Lady Eleanor Vance",
+      "customerEmail": "eleanor.vance@mayfair.org",
+      "customerPhone": "+44 20 7946 0112",
+      "bookingDate": "2026-11-08",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "guestCount": 2,
+      "assignedTableIds": [
+        "T01"
+      ],
+      "specialRequests": "Traditional English Breakfast & Earl Grey",
+      "bookingStatus": "CONFIRMED",
+      "createdAt": "2026-11-08T02:00:28.355Z",
+      "updatedAt": "2026-11-08T02:00:28.355Z",
+      "adminNotes": "Regular guest, preferred window table",
+      "emailStatus": "SENT"
+    },
+    {
+      "bookingId": "EC-20261108-1044",
+      "requestId": "req-init-2",
+      "customerName": "Sir Arthur Sterling",
+      "customerEmail": "sterling@londonchambers.co.uk",
+      "customerPhone": "+44 20 7946 0558",
+      "bookingDate": "2026-11-08",
+      "startTime": "14:30",
+      "endTime": "15:30",
+      "guestCount": 4,
+      "assignedTableIds": [
+        "T03"
+      ],
+      "specialRequests": "High Afternoon Tea celebration",
+      "bookingStatus": "CONFIRMED",
+      "createdAt": "2026-11-08T05:00:28.355Z",
+      "updatedAt": "2026-11-08T05:00:28.355Z",
+      "adminNotes": "Anniversary celebration",
+      "emailStatus": "SENT"
+    }
+  ],
+  "blockedDates": []
+}
